@@ -1,0 +1,31 @@
+/* src/Chat.css */
+.message {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.message-right {
+  align-items: flex-end;
+}
+
+.message-left {
+  align-items: flex-start;
+}
+
+.message-info {
+  margin-bottom: 5px;
+}
+
+.message-bubble {
+  max-width: 60%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: lightgray;
+  text-align: left; /* 左詰めに設定 */
+}
+
+.message-right .message-bubble {
+  background-color: lightblue;
+}
